@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Number</title>
+    <script>
+        function checkNumber() {
+            var number = document.getElementById("numberInput").value;
+            if (number == 13) {
+                alert("The number is equal to 13.");
+            } else {
+                alert("The number is not equal to 13.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>This script checks if your number is equal to 13.</h1>
+    <input type="number" id="numberInput" placeholder="Enter a number">
+    <button onclick="checkNumber()">Check</button>
+</body>
+</html>
